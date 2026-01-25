@@ -1,0 +1,34 @@
+# Module_2_software_1
+print("Mohammad Moynul Hassan Arif!")
+''''''
+name = input("Enter my name: ")
+print("Hello,", name + " ! ")
+''''''
+import math
+
+radius = float(input("Enter the radius of the circle: "))
+area = math.pi * radius * radius
+
+print("The area of the circle is:", area)
+''''''
+#####
+length = float(input("Enter the length of the rectangle: "))
+width = float(input("Enter the width of the rectangle: "))
+
+area = length * width
+perimeter = 2 * (length + width)
+
+print("Area of the rectangle:", area)
+print("Perimeter of the rectangle:", perimeter)
+''''''
+a = int(input("Enter first integer: "))
+b = int(input("Enter second integer: "))
+c = int(input("Enter third integer: "))
+
+sum_numbers = a + b + c
+product = a * b * c
+average = sum_numbers / 3
+
+print("Sum:", sum_numbers)
+print("Product:", product)
+print("Average:", average)
