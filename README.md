@@ -1,17 +1,17 @@
 # Module_2_software_1
 print("Mohammad Moynul Hassan Arif!")
-''''''
 name = input("Enter my name: ")
 print("Hello,", name + " ! ")
-''''''
+
+# Answer No: 2
 import math
 
 radius = float(input("Enter the radius of the circle: "))
 area = math.pi * radius * radius
 
 print("The area of the circle is:", area)
-''''''
-#####
+# answer no 3
+
 length = float(input("Enter the length of the rectangle: "))
 width = float(input("Enter the width of the rectangle: "))
 
@@ -20,7 +20,8 @@ perimeter = 2 * (length + width)
 
 print("Area of the rectangle:", area)
 print("Perimeter of the rectangle:", perimeter)
-''''''
+# Answer no 4
+
 a = int(input("Enter first integer: "))
 b = int(input("Enter second integer: "))
 c = int(input("Enter third integer: "))
